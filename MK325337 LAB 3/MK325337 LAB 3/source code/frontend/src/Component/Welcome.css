@@ -1,0 +1,72 @@
+/* Welcome.css */
+
+/* Welcome Section */
+.welcome-section {
+  height: 50vh;
+  margin: 50px 0;
+  background: radial-gradient(#387989, #6dd5ed);
+  background-repeat: no-repeat;
+    /*background-color: #ffffff;
+    color: #181818;
+    text-align: flex;
+    padding: 50px 0;*/
+  }
+  
+  .welcome-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-message {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Button Styling */
+  .btn {
+    display: inline-block;
+    background-color: #00ccff;
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #5ff4a4;
+  }
+  
+  /* Project Form Section */
+  .project-form-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .form-heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* Additional Styling for Username Display */
+  .username-home {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Updated Statement */
+  .welcome-message::before {
+    
+    /* content: "Manage your projects efficiently with our Project Management Dashboard. Create, track, and collaborate on projects with ease."; */
+    display: auto;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
